@@ -5,7 +5,7 @@ let rout = express.Router();
 let Model_query = require('../model/queries.js');
 
 rout.get('/',async function(req, res){
-    res.render('index');
+    res.render('../index');
 });
 
 rout.post('/queries', async function(req,res){
